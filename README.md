@@ -21,6 +21,7 @@ Langsync is a user-friendly web application designed for efficient editing, upda
 ## Demo
 
 ![Langsync Demo](public/demo.png)
+![Langsync Demo 2](public/demo2.png)
 
 ## Prerequisites
 
