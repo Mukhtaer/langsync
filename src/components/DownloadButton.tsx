@@ -1,5 +1,6 @@
 import React from "react";
 import { saveAs } from "file-saver";
+import { FiDownload } from "react-icons/fi";
 
 interface DownloadButtonProps {
   jsonData: { [key: string]: string };
@@ -16,9 +17,10 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ jsonData }) => {
   return (
     <button
       onClick={handleDownload}
-      className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"
+      className="text-gray-200 hover:bg-gray-700 p-3 rounded-md cursor-pointer transition-all flex items-center"
     >
-      Download JSON
+      <FiDownload size={18} className="mr-4" />
+      Save File
     </button>
   );
 };
