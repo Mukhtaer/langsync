@@ -16,17 +16,17 @@ Langsync is a user-friendly web application designed for efficient editing, upda
 - **Search Specific Values**: Quickly find specific values within the JSON data using the search functionality.
 - **Pagination**: Manage large sets of JSON data with pagination for better performance and usability.
 - **Toggle Pagination**: Enable or disable pagination based on user preference for flexibility.
-- **Button Rearrangement**: Rearranged buttons in the sidebar to prioritize user actions, including enabling/disabling the reset button based on changes.
+- **Responsive Design**: A responsive layout that adapts to various screen sizes for a seamless experience on desktops, tablets, and mobile devices.
 
 ## Demo
 
-[Link to live demo or screencast, if available]
+![Langsync Demo]('')
 
 ## Prerequisites
 
 Make sure you have the following installed on your system:
 
-- [Node.js](https://nodejs.org/) (version x.x.x)
+- [Node.js](https://nodejs.org/) (version 20.16.0 or later)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ## Installation
@@ -36,7 +36,7 @@ To clone and set up this project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Mukhtaer/langsync
+   git clone https://github.com/Mukhtaer/langsync.git
 
    ```
 
