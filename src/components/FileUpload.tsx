@@ -54,7 +54,7 @@ const FileUpload: React.FC<FileUploadProps> = ({ onUpload }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="flex flex-col items-center justify-center h-screen dark:bg-gray-900">
       <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100 mb-4">
         LangSync
       </h1>
